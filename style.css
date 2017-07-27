@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Euro Caps';
+  src: url('/eurocaps/eurocaps-webfont.eot');
+  src:
+    url('/eurocaps/eurocaps-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/eurocaps/eurocaps-webfont.woff2') format('woff2'),
+    url('/eurocaps/eurocaps-webfont.woff') format('woff'),
+    url('/eurocaps/eurocaps-webfont.ttf') format('truetype'),
+    url('/eurocaps/eurocaps-webfont.svg#euro_capsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100vw;
+}
+
+body {
+  align-content: stretch;
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Euro Caps', Helvetica, sans-serif;
+  text-shadow: 0 0 5px black;
+}
+
+a {
+  color: #de5e00;
+}
+
+footer {
+  padding: 1rem;
+  text-align: right;
+}
+
+main {
+  display: flex;
+  flex-grow: 1;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 20vh 20vw;
+}
+
+.qa {
+  font-size: 5em;
+}
+
+.q {
+  color: #de5e00;
+  font-size: 0.5em;
+  margin-bottom: 2rem;
+}
